@@ -4,7 +4,9 @@
 
   <nav>
     <ul>
-      <li each={ views }><a href="#{ route }/1" class="{ active : activeRoute == route }" onclick="{ hideMenu }">{ name }</a></li>
+      <li each={ views }>
+        <a href="#{ route }/1" class="{ active : activeRoute == route }" onclick="{ hideMenu }">{ name }</a>
+      </li>
     </ul>
   </nav>
 

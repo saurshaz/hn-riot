@@ -1,4 +1,4 @@
-const CACHE_NAME = 'periodic-weather-v01';
+const CACHE_NAME = 'riot-hackernews';
 const expectedCaches = [CACHE_NAME];
 
 self.addEventListener('install', (event) => {
@@ -65,6 +65,6 @@ self.addEventListener('push', (event) => {
 self.addEventListener('notificationclick', (event) => {
   event.notification.close();
   event.waitUntil(
-    clients.openWindow('https://use-the-platform.com/periodic-weather/')
+    clients.openWindow('https://saurshaz.github.io/riot-hn/')
   );
 });
