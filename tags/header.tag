@@ -1,6 +1,6 @@
 <hn-header class="hn-header { navigating : menuOpen }">
   <a href="#" class="nav-toggle" onclick="{ showMenu }">Menu</a>
-  <a href="http://riotjs.com" class="logo"><img src="/assets/riot120x.png" alt=""></a>
+  <a href="http://riotjs.com" class="logo"><img src="../assets/riot120x.png" alt=""></a>
 
   <nav>
     <ul>
