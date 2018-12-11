@@ -3,7 +3,7 @@
 ##################################
 
 ### As of now
-http://prokriya.us/hn-riot
+https://saurshaz.github.io/hn-riot
 
 ### TODOs
 - [ ] ServiceWorker usage to cache data
